@@ -185,9 +185,13 @@ importers:
       '@reactflow/eslint-config': workspace:^0.0.0
       '@reactflow/rollup-config': workspace:*
       '@reactflow/tsconfig': workspace:*
+      '@types/d3-drag': ^3.0.1
+      '@types/d3-selection': ^3.0.3
       '@types/node': ^18.7.16
       '@types/react': ^18.0.19
       classcat: ^5.0.3
+      d3-drag: ^3.0.0
+      d3-selection: ^3.0.0
       react: ^18.2.0
       typescript: ^4.8.3
       zustand: ^4.1.1
@@ -195,11 +199,15 @@ importers:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.19.0
       '@reactflow/core': link:../core
       classcat: registry.npmjs.org/classcat/5.0.4
+      d3-drag: registry.npmjs.org/d3-drag/3.0.0
+      d3-selection: registry.npmjs.org/d3-selection/3.0.0
       zustand: registry.npmjs.org/zustand/4.1.1_react@18.2.0
     devDependencies:
       '@reactflow/eslint-config': link:../../tooling/eslint-config
       '@reactflow/rollup-config': link:../../tooling/rollup-config
       '@reactflow/tsconfig': link:../../tooling/tsconfig
+      '@types/d3-drag': registry.npmjs.org/@types/d3-drag/3.0.1
+      '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.3
       '@types/node': registry.npmjs.org/@types/node/18.7.16
       '@types/react': registry.npmjs.org/@types/react/18.0.19
       react: registry.npmjs.org/react/18.2.0
@@ -1396,7 +1404,6 @@ packages:
     version: 3.0.1
     dependencies:
       '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.3
-    dev: false
 
   registry.npmjs.org/@types/d3-dsv/3.0.0:
     resolution: {integrity: sha512-o0/7RlMl9p5n6FQDptuJVMxDf/7EDEv2SYEO/CwdG2tr1hTfUVi0Iavkk2ax+VpaQ/1jVhpnj5rq1nj8vwhn2A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/d3-dsv/-/d3-dsv-3.0.0.tgz}
@@ -1494,7 +1501,6 @@ packages:
     resolution: {integrity: sha512-Mw5cf6nlW1MlefpD9zrshZ+DAWL4IQ5LnWfRheW6xwsdaWOb6IRRu2H7XPAQcyXEx1D7XQWgdoKR83ui1/HlEA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/d3-selection/-/d3-selection-3.0.3.tgz}
     name: '@types/d3-selection'
     version: 3.0.3
-    dev: false
 
   registry.npmjs.org/@types/d3-shape/3.1.0:
     resolution: {integrity: sha512-jYIYxFFA9vrJ8Hd4Se83YI6XF+gzDL1aC5DCsldai4XYYiVNdhtpGbA/GM6iyQ8ayhSp3a148LY34hy7A4TxZA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.0.tgz}

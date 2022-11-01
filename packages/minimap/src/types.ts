@@ -13,3 +13,10 @@ export type MiniMapProps<NodeData = any> = HTMLAttributes<SVGSVGElement> & {
   maskColor?: string;
   position?: PanelPosition;
 };
+
+export type MiniMapDragProps = {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+};

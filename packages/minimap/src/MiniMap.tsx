@@ -6,6 +6,8 @@ import { useStore, getRectOfNodes, getBoundsOfRects, Panel } from '@reactflow/co
 import type { ReactFlowState, Rect } from '@reactflow/core';
 
 import MiniMapNode from './MiniMapNode';
+import MiniMapDrag from './MiniMapDrag';
+
 import type { MiniMapProps, GetMiniMapNodeAttribute } from './types';
 
 declare const window: any;
@@ -92,6 +94,7 @@ function MiniMap({
             />
           );
         })}
+        <MiniMapDrag x={viewBB.x} y={viewBB.y} width={viewBB.width} height={viewBB.height} />
         <path
           className="react-flow__minimap-mask"
           d={`M${x - offset},${y - offset}h${width + offset * 2}v${height + offset * 2}h${-width - offset * 2}z
